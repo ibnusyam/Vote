@@ -24,7 +24,7 @@
             <main class="content p-4">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <div>
-                        <h2 class="fw-bold">Dasboard</h2>
+                        <h2 class="fw-bold">Dashboard</h2>
                         <p class="text-muted">Selamat datang di Website E-Voting</p>
                     </div>
                     <nav aria-label="breadcrumb">

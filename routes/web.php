@@ -8,6 +8,7 @@ use App\Http\Controllers\VoterController;
 
 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 Route::post('/', [DashboardController::class, 'vote'])->name('vote');
+Route::get('/about', [DashboardController::class, 'about'])->name('about');
 
 
 
@@ -31,7 +32,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/admin/candidates/{id}', [AdminController::class, 'deleteCandidate'])->name('candidate.destroy');
     Route::get('/admin/voters', [VoterController::class, 'index'])->name('voter');
     Route::get('/admin/voters/create', [VoterController::class, 'create'])->name('voter.create');
-    Route::post('/admin/candidates', [VoterController::class, 'store'])->name('voter.store');
+    Route::post('/admin/', [VoterController::class, 'store'])->name('voter.store');
     Route::delete('/admin/voters/{id}', [VoterController::class, 'destroy'])->name('voter.destroy');
 });
 

@@ -7,8 +7,7 @@
         <div class="d-flex align-items-center">
             <img src="https://i.pravatar.cc/60?img=1" alt="User" class="rounded-circle">
             <div class="ms-3">
-                <h6 class="text-white mb-0">Lorem Ipsum</h6>
-                <small class="text-white-50">Pemilih (Aktif)</small>
+                <h6 class="text-white mb-0">Administrator</h6>
             </div>
         </div>
     </div>

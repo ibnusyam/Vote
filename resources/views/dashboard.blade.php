@@ -40,7 +40,7 @@
 <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase fixed-top shadow-sm" id="mainNav">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#page-top">E-Voting</a>
+            <a class="navbar-brand fw-bold" href="/">E-Voting</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -51,7 +51,7 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#about">About</a></li>
+                            href="/about">About</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#contact">Contact</a></li>
                     <li class="nav-item mx-0 mx-lg-1 d-flex align-items-center">
@@ -205,7 +205,7 @@
             <div class="row">
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">2215 John Daniel Drive<br />Clark, MO 65243</p>
+                    <p class="lead mb-0">UNIBI<br />SOEKARNO HATTA</p>
                 </div>
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Around the Web</h4>
@@ -222,7 +222,7 @@
     </footer>
 
     <div class="copyright py-4 text-center text-white" style="background-color: #000;">
-        <div class="container"><small>Copyright &copy; Your Website 2025</small></div>
+        <div class="container"><small>Copyright &copy; E-VOTING 2025</small></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

@@ -16,6 +16,11 @@ class DashboardController extends Controller
         return view('dashboard', compact('candidate', 'dashboard'));
     }
 
+    public function about(){
+
+        return view('about');
+    }
+
     public function vote(Request $request)
     {
         $request->validate([
